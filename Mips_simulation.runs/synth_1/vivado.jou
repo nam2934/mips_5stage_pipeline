@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Aug 29 02:24:58 2022
+# Process ID: 15692
+# Current directory: /home/namjin/Mips_simulation/Mips_simulation.runs/synth_1
+# Command line: vivado -log Mips.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mips.tcl
+# Log file: /home/namjin/Mips_simulation/Mips_simulation.runs/synth_1/Mips.vds
+# Journal file: /home/namjin/Mips_simulation/Mips_simulation.runs/synth_1/vivado.jou
+# Running On: namjin-D711, OS: Linux, CPU Frequency: 4483.262 MHz, CPU Physical cores: 8, Host memory: 16717 MB
+#-----------------------------------------------------------
+source Mips.tcl -notrace

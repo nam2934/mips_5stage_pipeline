@@ -1,0 +1,30 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.regfile_type
+Compiling package xil_defaultlib.data_mem_type
+Compiling architecture behavioral of entity xil_defaultlib.Fetch [fetch_default]
+Compiling architecture behavioral of entity xil_defaultlib.IF_ID_latch [if_id_latch_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decode [decode_default]
+Compiling architecture behavioral of entity xil_defaultlib.Control [control_default]
+Compiling architecture behavioral of entity xil_defaultlib.ID_EX_latch [id_ex_latch_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALUControl [alucontrol_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.Excute [excute_default]
+Compiling architecture behavioral of entity xil_defaultlib.EX_MEM_latch [ex_mem_latch_default]
+Compiling architecture behavioral of entity xil_defaultlib.MemoryAccess [memoryaccess_default]
+Compiling architecture behavioral of entity xil_defaultlib.MEM_WB_latch [mem_wb_latch_default]
+Compiling architecture behavioral of entity xil_defaultlib.WriteBack [writeback_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mips [mips_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_testbench
+Built simulation snapshot mips_testbench_behav

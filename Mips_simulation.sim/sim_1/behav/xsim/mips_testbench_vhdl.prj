@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Mips_simulation.srcs/sources_1/new/ALU.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/ALUControl.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/Control.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/MemoryAccess.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/Mips.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/Decode.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/EX_MEM_latch.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/Excute.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/Fetch.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/ID_EX_latch.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/IF_ID_latch.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/MEM_WB_latch.vhd" \
+"../../../../Mips_simulation.srcs/sources_1/new/WriteBack.vhd" \
+"../../../../Mips_simulation.srcs/sim_1/new/mips_testbench.vhd" \
+
+# Do not sort compile order
+nosort

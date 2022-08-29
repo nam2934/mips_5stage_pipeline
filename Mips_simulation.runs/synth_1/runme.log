@@ -1,0 +1,47 @@
+
+*** Running vivado
+    with args -log Mips.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mips.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Mips.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/namjin/Mips_simulation/Mips_simulation.srcs/utils_1/imports/synth_1/Mips.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/namjin/Mips_simulation/Mips_simulation.srcs/utils_1/imports/synth_1/Mips.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Mips -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15707
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2938.691 ; gain = 0.000 ; free physical = 2929 ; free virtual = 6751
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mips' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:88]
+WARNING: [Synth 8-5640] Port 'reset' is missing in component declaration [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:90]
+INFO: [Synth 8-3491] module 'Fetch' declared at '/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd:36' bound to instance 'fetch_component' of component 'Fetch' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:314]
+INFO: [Synth 8-638] synthesizing module 'Fetch' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd:48]
+WARNING: [Synth 8-614] signal 'PCSrc' is read in the process but is not in the sensitivity list [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd:120]
+WARNING: [Synth 8-614] signal 'PCInput1' is read in the process but is not in the sensitivity list [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd:120]
+WARNING: [Synth 8-614] signal 'CurPC' is read in the process but is not in the sensitivity list [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd:120]
+INFO: [Synth 8-256] done synthesizing module 'Fetch' (0#1) [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd:48]
+INFO: [Synth 8-3491] module 'IF_ID_latch' declared at '/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/IF_ID_latch.vhd:34' bound to instance 'if_id_latch_component' of component 'IF_ID_latch' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:320]
+INFO: [Synth 8-638] synthesizing module 'IF_ID_latch' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/IF_ID_latch.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'IF_ID_latch' (0#1) [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/IF_ID_latch.vhd:42]
+INFO: [Synth 8-3491] module 'Decode' declared at '/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Decode.vhd:15' bound to instance 'decode_component' of component 'Decode' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:326]
+ERROR: [Synth 8-3493] module 'decode' declared at '/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Decode.vhd:15' does not have matching formal port for component port 'reset' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:326]
+ERROR: [Synth 8-285] failed synthesizing module 'Mips' [/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd:88]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2938.691 ; gain = 0.000 ; free physical = 3868 ; free virtual = 7695
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 29 02:25:09 2022...

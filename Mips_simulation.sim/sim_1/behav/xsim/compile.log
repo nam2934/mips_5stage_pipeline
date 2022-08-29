@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mips'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Fetch'

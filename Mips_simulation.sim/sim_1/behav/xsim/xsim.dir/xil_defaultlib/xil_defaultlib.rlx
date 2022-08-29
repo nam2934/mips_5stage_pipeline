@@ -1,0 +1,17 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/home/namjin/Mips_simulation/Mips_simulation.gen/sources_1/ip/inst_mem_blk/inst_mem_blk_sim_netlist.vhdl,1661589985,vhdl,,,,inst_mem_blk;inst_mem_blk_blk_mem_gen_generic_cstr;inst_mem_blk_blk_mem_gen_prim_width;inst_mem_blk_blk_mem_gen_prim_wrapper_init;inst_mem_blk_blk_mem_gen_top;inst_mem_blk_blk_mem_gen_v8_4_5;inst_mem_blk_blk_mem_gen_v8_4_5_synth,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sim_1/new/mips_testbench.vhd,1661708127,vhdl,,,,mips_testbench,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/ALU.vhd,1661590026,vhdl,,,,alu,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/ALUControl.vhd,1661590037,vhdl,,,,alucontrol,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Control.vhd,1661590073,vhdl,,,,control,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/EX_MEM_latch.vhd,1661590083,vhdl,,,,ex_mem_latch,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Excute.vhd,1661590056,vhdl,,,,excute,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Fetch.vhd,1661750784,vhdl,,,,fetch,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/ID_EX_latch.vhd,1661590092,vhdl,,,,id_ex_latch,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/IF_ID_latch.vhd,1661590100,vhdl,,,,if_id_latch,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/MEM_WB_latch.vhd,1661598635,vhdl,,,,mem_wb_latch,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/Mips.vhd,1661707639,vhdl,,,,data_mem_type;mips;regfile_type,,,,,,,,
+/home/namjin/Mips_simulation/Mips_simulation.srcs/sources_1/new/WriteBack.vhd,1661590123,vhdl,,,,writeback,,,,,,,,
